@@ -1,0 +1,52 @@
+.car-container{
+	display: inline-flex;
+	object-fit: cover;
+	height: 40vh;
+	align-items: center;
+	float: left;
+	padding-top: 6em;
+}
+
+.fa-solid{
+	height: 50px;
+	width: 50px;
+	text-align: center;
+	pointer-events: none;
+}
+
+
+
+button.slideButton {
+	background: none;
+	border: none;
+	font-size: 2em;
+}
+
+.slideButton:hover{
+	font-size: 1.75em;
+	transition-duration: .3s;
+}
+
+#leftImg{
+  max-width: 20vw;
+  object-fit: contain;
+		vertical-align: middle;
+	opacity: 50%;
+}
+
+#centerImg{
+  max-width: 40vw;
+  object-fit: cover;
+	padding: 0 5px 0 5px;
+}
+
+#rightImg{
+  max-width: 20vw;
+  object-fit: cover;
+	vertical-align: top;
+	opacity: 50%;
+}
+
+.imageHold{
+	vertical-align: middle;
+}
